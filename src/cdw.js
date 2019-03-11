@@ -25,10 +25,6 @@ module.exports = (pluginContext) => {
                 subtitle: p
             }
         })
-        pluginContext.console.log('info', 'ret', {
-            values: r
-        })
-
 
         return new Promise((resolve, reject) => {
             resolve(r)
