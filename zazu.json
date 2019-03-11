@@ -1,0 +1,25 @@
+{
+  "name": "zazu-workspace",
+  "version": "0.1.0",
+  "description": "Open project in workspace.",
+  "blocks": {
+    "input": [
+      {
+        "id": "cdw",
+        "type": "PrefixScript",
+        "prefix": "cdw",
+        "space": true,
+        "args": "Optional",
+        "script": "src/cdw.js",
+        "connections": ["Open"]
+      }
+    ],
+    "output": [
+      {
+        "id": "Open",
+        "type": "UserScript",
+        "script": "src/open.js"
+      }
+    ]
+  }
+}
